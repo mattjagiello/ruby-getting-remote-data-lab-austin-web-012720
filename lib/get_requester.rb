@@ -11,4 +11,6 @@ class GetRequester
     uri.open.string
   end
 
+  def parse_json
+
 end
