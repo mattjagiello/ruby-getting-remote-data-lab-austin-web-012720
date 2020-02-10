@@ -5,7 +5,8 @@ class GetRequester
   end
 
   def get_response_body
-
+    uri = URI.parse(url)
+        uri.open.string
   end
 
 end
